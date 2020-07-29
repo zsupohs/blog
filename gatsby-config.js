@@ -6,10 +6,14 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    author: "zsupohs",
     siteTitle: "The 6000th Layer",
     siteTitleAlt: "The 6000th Layer",
-    siteLanguage: "ja"
+    siteHeadline: "The 6000th Layer - Kuso Blog",
+    siteUrl: "https://zsupohs.netlify.app",
+    siteDescription: "",
+    siteLanguage: "ja",
+    siteImage: "",
+    author: "@zsupohs"
   },
   plugins: [
     {
